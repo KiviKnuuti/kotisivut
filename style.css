@@ -1,0 +1,64 @@
+body {
+		background-color: purple;
+}
+
+#container {
+	font-family: arial;
+	padding: 30px;
+}
+
+#header {
+	height: 500px;
+	border-radius: 10px;
+	
+	text-align: center;
+	
+	
+	background-size: cover;
+	background-image: url(mami4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#otsikko {
+	position: relative;
+	top: 50px;
+	font-size: 60px;
+}
+
+.info {
+	height: 150px;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	border: solid black 3px;
+}
+
+#box1 {
+	width: 40%;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+#box2 {
+	width: 45%;
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+#gallery {
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: white;
+}
+
+figure { 
+    display: inline-block;
+}
